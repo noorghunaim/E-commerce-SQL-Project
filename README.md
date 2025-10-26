@@ -1,4 +1,4 @@
-# MySQL-Project
+# SQL-Project
 This project is a sample e-commerce database built using SQLite to practice SQL concepts and relational database design. It simulates a small online store, including users, products, orders, order items, and product reviews.
 
 The project demonstrates:
