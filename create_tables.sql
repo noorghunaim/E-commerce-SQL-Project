@@ -1,6 +1,5 @@
 -- SQL script to create tables
 
-
 -- The code to create (or open) the database file as follows:
 .open E_commerce.db
   
