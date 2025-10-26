@@ -10,7 +10,7 @@ This project simulates a small e-commerce platform using SQLite. It demonstrates
 
 1. **Users**
 - Stores customer information.
-- Columns: user_id (PK), name, email, signup_date
+- Columns: user_id (PK), first_name, last_name,email, signup_date
 
 **2. Products**
 
