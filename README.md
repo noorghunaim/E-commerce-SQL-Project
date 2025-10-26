@@ -1,13 +1,38 @@
-# SQL-Project
-This project is a sample e-commerce database built using SQLite to practice SQL concepts and relational database design. It simulates a small online store, including users, products, orders, order items, and product reviews.
+# E-commerce Project
 
-Tech Stack:
+**📖 Overview**
 
-- SQLite
+This project simulates a small e-commerce platform using SQLite. It demonstrates relational database design, data insertion, and SQL querying to extract meaningful insights. The project is designed to showcase practical skills in SQL, database modeling, and data analysis.
 
-- SQL queries for database manipulation and reporting
+**🗂 Database Structure:**
 
-Learning Outcomes:
+**Tables & Relationships**
+
+1. **Users**
+- Stores customer information.
+- Columns: user_id (PK), name, email, signup_date
+
+**2. Products**
+
+- Stores product details.
+- Columns: product_id (PK), name, category, price, stock
+
+**3. Orders**
+
+- Represents orders placed by users.
+- Columns: order_id (PK), user_id (FK), order_date, total_amount
+
+**4. Order_Items**
+
+- Details products in each order.
+- Columns: order_item_id (PK), order_id (FK), product_id (FK), quantity, price
+
+**5. Reviews**
+
+- Stores product reviews by users.
+- Columns: review_id (PK), product_id (FK), user_id (FK), rating, comment, review_date
+
+**🧩 Diagram:****
 - Understanding relational database design and normalization
 
 - Practicing SQL queries of varying complexity
