@@ -5,7 +5,6 @@ INSERT INTO Users VALUES (1, 'Alice', 'Smith', 'alice@gmail.com','2025-01-15'),
 (2,'Bob', 'Johnson', 'Bob@hotmail.com', '2025-02-20'),
 (3, 'Charlie', 'Lee', 'Charlie@gmail.com', '2025-03-05');
 
-
 -- The code to IGNORE or REPLACE in the Users table is as follows:
 INSERT OR IGNORE INTO Users (user_id, first_name, last_name, email, signup_date) 
 VALUES (1,'Alice','Smith','alice@gmail.com','2025-01-15'),
